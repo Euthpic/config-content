@@ -10,4 +10,4 @@ spring:
 env: dev
 girl:
   name: euthpic
-  age: 18
+  age: 20
