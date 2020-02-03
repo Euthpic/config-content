@@ -5,6 +5,11 @@ spring:
     url: jdbc:mysql://localhost:3306/springcloud_sell?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
     username: root
     password: 123456
+  rabbitmq:
+    host: localhost
+    username: guest
+    password: guest
+    port: 5672
   jpa:
     show-sql: true
 env: test
